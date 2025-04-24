@@ -1,0 +1,38 @@
+[2025-04-24 16:11:42] Payment process started
+[2025-04-24 16:11:42] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:11:42] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511102
+[2025-04-24 16:11:43] Fapshi API response: null
+[2025-04-24 16:11:43] Payment initiation failed: Unknown error
+[2025-04-24 16:11:46] Payment process started
+[2025-04-24 16:11:46] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:11:46] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511106
+[2025-04-24 16:11:47] Fapshi API response: null
+[2025-04-24 16:11:47] Payment initiation failed: Unknown error
+[2025-04-24 16:11:55] Payment process started
+[2025-04-24 16:11:55] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:11:55] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511115
+[2025-04-24 16:11:55] Fapshi API response: null
+[2025-04-24 16:11:55] Payment initiation failed: Unknown error
+[2025-04-24 16:12:58] Payment process started
+[2025-04-24 16:12:58] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:12:58] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511178
+[2025-04-24 16:12:59] Fapshi API response: null
+[2025-04-24 16:12:59] Payment initiation failed: Unknown error
+[2025-04-24 16:14:38] Payment process started
+[2025-04-24 16:14:38] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:14:38] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511278
+[2025-04-24 16:14:40] Fapshi API response: null
+[2025-04-24 16:14:40] Payment initiation failed: Unknown error
+[2025-04-24 16:15:59] Payment process started
+[2025-04-24 16:15:59] Request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:15:59] Preparing payment: Amount: 8000.00 XAF, Email: root@gmail.com, External ID: SC_7_1745511359
+[2025-04-24 16:16:11] Fapshi API response: null
+[2025-04-24 16:16:11] Payment initiation failed: Unknown error
+[2025-04-24 16:28:38] Payment process started
+[2025-04-24 16:28:38] Raw input: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:28:38] Processed request data: {"product_id":7,"email":"root@gmail.com","phone":"650500018"}
+[2025-04-24 16:28:38] Preparing payment: Amount: 8000 XAF, Email: root@gmail.com, External ID: 0424162838281
+[2025-04-24 16:28:38] Request data for Fapshi: {"amount":8000,"email":"root@gmail.com","redirectUrl":"http:\/\/localhost\/payment\/success","userId":"1","externalId":"0424162838281","message":"Purchase of Portfolio Template from SourceCode"}
+[2025-04-24 16:28:43] HTTP response code: 200
+[2025-04-24 16:28:43] Fapshi API raw response: {"message":"Request successful","link":"https://checkout.fapshi.com/payment/680a66bcba118fd1cb4294db","transId":"durUaXkj","dateInitiated":"2025-04-24T16:28:44.881Z"}
+[2025-04-24 16:28:43] Payment initiated successfully. Transaction ID: durUaXkj

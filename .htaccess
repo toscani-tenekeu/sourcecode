@@ -1,0 +1,15 @@
+# Fichier .htaccess à la racine du projet
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Permettre l'accès aux fichiers API
+    <FilesMatch "^(payment-process|webhook)\.php$">
+        Order Allow,Deny
+        Allow from all
+    </FilesMatch>
+
+    # Règles de routage pour les pages
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
