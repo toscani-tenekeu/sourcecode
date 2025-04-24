@@ -1,3 +1,7 @@
+<?php
+// Start output buffering to prevent header issues
+ob_start();
+?>
 <?php 
 include 'includes/header.php';
 
@@ -90,3 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 <?php include 'includes/footer.php'; ?>
+<?php
+// Flush the output buffer
+ob_end_flush();
+?>

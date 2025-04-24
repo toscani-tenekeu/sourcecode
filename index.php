@@ -50,6 +50,34 @@ switch ($uri) {
         include 'pages/download.php';
         break;
         
+    case '/seller/activate':
+        include 'pages/seller/activate.php';
+        break;
+        
+    case '/seller/payment':
+        include 'pages/seller/payment.php';
+        break;
+        
+    case '/seller/subscription-success':
+        include 'pages/seller/subscription-success.php';
+        break;
+        
+    case '/seller/add-product':
+        include 'pages/seller/add-product.php';
+        break;
+        
+    case '/seller/edit-product':
+        include 'pages/seller/edit-product.php';
+        break;
+        
+    case '/seller/sales':
+        include 'pages/seller/sales.php';
+        break;
+        
+    case '/update-profile':
+        include 'pages/update-profile.php';
+        break;
+        
     default:
         // Check if it's a category page
         if (preg_match('/^\/category\/(.+)$/', $uri, $matches)) {
